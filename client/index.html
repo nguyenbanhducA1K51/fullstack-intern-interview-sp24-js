@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Swent Consulting - Full-Stack Software Engineering Interview</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Full-Stack Interview Project</h1>
+      </div>
+    </header>
+    <div class="container">
+      <p>Use this template as a starting point to build your application.</p>
+
+      <!-- Content goes here -->
+
+      <table id="users">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Placeholder content -->
+          <tr>
+            <td>John Doe</td>
+            <td>johndoe@gmail.com</td>
+            <td>49</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container">
+      <h1>Register User</h1>
+      <form id="registerForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required min="1" max="150" />
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
