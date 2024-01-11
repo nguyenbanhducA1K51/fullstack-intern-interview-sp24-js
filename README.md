@@ -14,6 +14,10 @@ or
 yarn start
 ```
 
+## Submission Instructions
+
+To submit the assignment, create a fork of this repository and commit your solutions. You may respond to the original email you received with the assignment instructions, or directly to [careers@swent-consulting.com](mailto:careers@swent-consulting.com).
+
 ## Assignment Instructions
 
 You may use any resources you wish to assist you in completing this project, that being StackOverflow, Google, ChatGPT, etc. I will warn you in advance of using GPT-3.5 solutions as they are often erroneous and will point you in the wrong direction.
